@@ -1,10 +1,17 @@
 .container {
     width: 100vw;
     height: 100vh;
-    display: flex; /* flexbox */
+    display: flex; /* CSS flexbox */
+    align-items: center;
+    justify-content: center;
+    background: url("wallpaper.jpeg") fixed no-repeat;
+    background-size: cover;
 }
 
 .login-form {
     width: 240px;
     height: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
