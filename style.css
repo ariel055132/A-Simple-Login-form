@@ -2,11 +2,12 @@
     width: 100vw;
     height: 100vh;
     display: flex; /* CSS flexbox */
-    align-items: center;
-    justify-content: center;
-    background: url("wallpaper.jpeg") fixed no-repeat;
-    background-size: cover;
+    align-items: center; /* align the elements in the container as center */
+    justify-content: center; /* Pack items around the center */
+    background: url("wallpaper.jpeg") fixed no-repeat; /* add a single image, centered */
+    background-size: cover; /* covering the background image */
 }
+
 
 .login-form {
     width: 240px;
@@ -14,4 +15,19 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    overflow: hidden; /* Hidden when an element's content is too big to fit in its block formatting context */
+
 }
+
+.login-form h2 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.login-form input,
+.login-form button {
+    background-color:aliceblue;
+    height: 30px;
+}
+
