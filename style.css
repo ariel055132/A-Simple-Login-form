@@ -31,7 +31,9 @@
 
 .login-form input,
 .login-form button {
-    background-color:aliceblue;
+    background-color: aliceblue; /* background color can be changed according to different image */
     height: 30px;
+    border: none;  /* no border */
+    margin: 0.5em; /* margin area of the element */
 }
 
